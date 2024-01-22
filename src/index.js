@@ -8,8 +8,8 @@ import Appv1 from "./App-v1";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Appv1 />
+    <App />
+    {/* <Appv1 /> */}
     {/* <StarRating
       maxRating={5}
       messages={["terriable", "not good", "fine", "good", "very good"]}
