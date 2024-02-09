@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.925d6c0f.css",
-    "main.js": "/react-gh-pages/static/js/main.453a8f80.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.925d6c0f.css.map": "/react-gh-pages/static/css/main.925d6c0f.css.map",
-    "main.453a8f80.js.map": "/react-gh-pages/static/js/main.453a8f80.js.map"
+    "main.css": "/usePopcorn/static/css/main.925d6c0f.css",
+    "main.js": "/usePopcorn/static/js/main.453a8f80.js",
+    "index.html": "/usePopcorn/index.html",
+    "main.925d6c0f.css.map": "/usePopcorn/static/css/main.925d6c0f.css.map",
+    "main.453a8f80.js.map": "/usePopcorn/static/js/main.453a8f80.js.map"
   },
   "entrypoints": [
     "static/css/main.925d6c0f.css",
