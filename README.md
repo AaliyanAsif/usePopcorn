@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# usePopcorn - Movie Database App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+usePopcorn is a movie database app built with React.js and styled with CSS. This documentation will guide you through the features and usage of the application.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+usePopcorn is a movie database app that allows users to search for movies using the Omdb API. The app provides a user-friendly interface to view detailed information about movies, add them to a watched movies list, and manage their watch history.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+1. **Movie Search:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Users can search for movies using a query.
+   - Results are displayed with movie posters and basic information.
 
-### `npm run build`
+2. **Movie Details:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - Clicking on a movie in the search results opens a sidebar with detailed information.
+   - Information includes poster, duration, genres, release date, name, IMDb rating, synopsis, cast, and director.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Rating and Watched List:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Users can rate movies out of 10.
+   - They can add movies to a watched list, and the list shows total watch time, average IMDb rating, and average user rating.
 
-### `npm run eject`
+4. **Watched List Management:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - Removing the search query reveals the user's watched movies list.
+   - Users can remove movies from their watched list.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Error Handling:**
+   - The app displays a loading state and handles errors gracefully.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Requirements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js and npm installed on your machine.
+- Internet connection to fetch movie data from the Omdb API.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository: `git clone [repository URL]`
+2. Navigate to the project directory: `cd usePopcorn`
+3. Install dependencies: `npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. Start the application: `npm start`
+2. Open your browser and go to `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Now, you can use the app to search for movies, view details, rate them, and manage your watched movies list.
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React.js
+- CSS
+- Omdb API
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you want to contribute to usePopcorn, follow these steps:
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Add feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request.
